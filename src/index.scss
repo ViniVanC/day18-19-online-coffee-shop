@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;800&display=swap");
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 #root {
   min-height: 100vh;
   display: flex;
@@ -56,3 +52,7 @@
     scale: 0.9;
   }
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
