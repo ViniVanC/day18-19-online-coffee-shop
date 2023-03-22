@@ -21,7 +21,7 @@ export const OurRange = () => {
             "A drink from the 'My Alowishus' bottled brews range OR grab one of our delicious coffee's."
           }
         />
-        <div className="flex flex-wrap justify-center gap-[30px]">
+        <div className="flex justify-center gap-[30px] max-md:flex-wrap">
           {ourRangesCards.map(({ title, description, btnText, imgSrc }, i) => (
             <OurRangeCard
               key={i}
