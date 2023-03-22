@@ -37,3 +37,27 @@ export const ourRangesCards = [
     imgSrc: "/images/icons/ice-cream.png",
   },
 ];
+
+export const sellingCards = [
+  {
+    title: "Double Espresso",
+    description:
+      "Amet minim mollit non deserunt dolor ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis.",
+    price: "59.99",
+    imgSrc: "/images/selling-coffee/selling1.png",
+  },
+  {
+    title: "Caramel Frappe",
+    description:
+      "Amet minim mollit non deserunt dolor ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis.",
+    price: "59.99",
+    imgSrc: "/images/selling-coffee/selling2.png",
+  },
+  {
+    title: "Iced Coffee",
+    description:
+      "Amet minim mollit non deserunt dolor ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis.",
+    price: "59.99",
+    imgSrc: "/images/selling-coffee/selling3.png",
+  },
+];
