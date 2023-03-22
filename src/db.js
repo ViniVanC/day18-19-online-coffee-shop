@@ -20,19 +20,19 @@ export const navList = [
 export const ourRangesCards = [
   {
     title: "Our Catering",
-    description: "The Food",
-    btnText: "The Gelato",
+    description: "Alowishus Catering, delicious drop off Catering",
+    btnText: "Order cathering",
     imgSrc: "/images/icons/food.png",
   },
   {
-    title: "Alowishus Catering, delicious drop off Catering",
+    title: "The Food",
     description: "Our entire menu is available as dine in or takeaway.",
-    btnText: "Life is like GELATO, enjoy it before it melts.",
+    btnText: "food menu",
     imgSrc: "/images/icons/fast-food.png",
   },
   {
-    title: "Order cathering",
-    description: "food menu",
+    title: "The Gelato",
+    description: "Life is like GELATO, enjoy it before it melts.",
     btnText: "Discover more",
     imgSrc: "/images/icons/ice-cream.png",
   },
