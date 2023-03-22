@@ -3,7 +3,7 @@ import { Container } from "../Container";
 
 export const Intro = () => {
   return (
-    <section id="intro" className="bg-gray">
+    <div id="intro" className="bg-gray">
       <Container>
         <div className="flex h-[100vh] items-center py-[130px]">
           {/* left */}
@@ -55,6 +55,6 @@ export const Intro = () => {
           </div>
         </div>
       </Container>
-    </section>
+    </div>
   );
 };
