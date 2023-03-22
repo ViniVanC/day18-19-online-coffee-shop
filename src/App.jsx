@@ -1,5 +1,6 @@
 import { Header } from "./components/Header/Header";
 import { Intro } from "./components/Intro/Intro";
+import { Order } from "./components/Order/Order";
 import { OurRange } from "./components/OurRange/OurRange";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <Intro />
       <OurRange />
+      <Order />
     </>
   );
 }
