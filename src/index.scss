@@ -43,4 +43,16 @@
   line-height: 167%;
   text-transform: uppercase;
   color: #fff;
+
+  transition: all 0.3s ease-in;
+
+  @media (min-width: 768px) {
+    &:hover {
+      background-color: #64646a;
+    }
+  }
+
+  &:active {
+    scale: 0.9;
+  }
 }
