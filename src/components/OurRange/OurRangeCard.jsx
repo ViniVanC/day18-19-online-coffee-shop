@@ -9,10 +9,9 @@ export const OurRangeCard = ({
 }) => {
   return (
     <div
-      className="rounded-[24px] bg-white p-[40px]"
+      className="rounded-[24px] bg-white p-[40px] sm:w-1/3"
       style={{
         boxShadow: "0px 30px 60px rgba(163, 168, 179, 0.3)",
-        flex: "0 1 33.3%",
       }}
     >
       <h3 className="mb-2 text-[36px] font-semibold leading-[144%] text-black">
