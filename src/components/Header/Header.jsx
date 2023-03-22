@@ -5,7 +5,7 @@ import { navList } from "../../db";
 
 export const Header = () => {
   return (
-    <header className="fixed left-0 top-0 w-full py-[24px]">
+    <header className="fixed left-0 top-0 z-50 w-full py-[24px]">
       <Container>
         <div className="flex items-center justify-between gap-[30px]">
           {/* logo left */}
