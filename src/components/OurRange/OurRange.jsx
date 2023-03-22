@@ -6,9 +6,9 @@ import { OurRangeCard } from "./OurRangeCard";
 
 export const OurRange = () => {
   return (
-    <section id="our-range">
+    <section id="our-range" className="relative z-0">
       <Container>
-        <div className="decor-cup hidden">
+        <div className="decor-cup absolute left-[45px] top-0 -z-[1] max-sm:hidden">
           <img
             src="/images/decorate/decorate-coffee-cup.png"
             alt="decorate coffee cup"
