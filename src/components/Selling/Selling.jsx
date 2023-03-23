@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import React from "react";
 import { sellingCards } from "../../db";
 import { Container } from "../Container";
@@ -8,11 +9,19 @@ export const Selling = () => {
   return (
     <section id="selling" className="relative z-0">
       <Container>
-        <div
+        <motion.div
           className="absolute -top-[100px] -right-[0] z-[-1] w-[400px] scale-x-[-1] max-sm:hidden"
           style={{
             filter:
               "blur(7.5px) drop-shadow(-15px 50px 70px rgba(27, 27, 29, 0.1))",
+          }}
+          initial="hidden"
+          whileInView={"visible"}
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ delay: 0.4, duration: 0.5 }}
+          variants={{
+            hidden: { opacity: 0 },
+            visible: { opacity: 1 },
           }}
         >
           <img
@@ -20,7 +29,7 @@ export const Selling = () => {
             src="/images/decorate/decorate-coffee-cup.png"
             alt="decorate coffee cup"
           />
-        </div>
+        </motion.div>
         <SectionHeader
           title={"Best Selling Coffee"}
           description={
