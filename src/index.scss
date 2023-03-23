@@ -24,6 +24,10 @@
   }
 }
 
+*:disabled {
+  opacity: 0.5;
+}
+
 section {
   padding: 75px 0;
 }
