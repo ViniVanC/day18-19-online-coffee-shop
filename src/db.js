@@ -61,3 +61,20 @@ export const sellingCards = [
     imgSrc: "/images/selling-coffee/selling3.png",
   },
 ];
+
+export const reviewsCards = [
+  {
+    title: "Brooklyn Simmons",
+    description:
+      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia",
+    stars: 5,
+    imgSrc: "/images/reviews/user-img-reviews1.png",
+  },
+  {
+    title: "Imam White",
+    description:
+      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia",
+    stars: 5,
+    imgSrc: "/images/reviews/user-img-reviews2.png",
+  },
+];
