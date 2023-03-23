@@ -3,7 +3,7 @@ import React from "react";
 export const ReviewsCard = ({ imgSrc, title, description, stars, delay }) => {
   return (
     <div
-      className="overflow-hidden rounded-[16px] bg-white sm:w-[460px]"
+      className="overflow-hidden rounded-[16px] bg-white sm:max-w-[460px]"
       style={{
         filter: "drop-shadow(0px 20px 60px rgba(163, 168, 179, 0.15))",
       }}
