@@ -5,6 +5,7 @@ import { OurRange } from "./components/OurRange/OurRange";
 import { Selling } from "./components/Selling/Selling";
 import { DownloadApp } from "./components/DownloadApp/DownloadApp";
 import { Reviews } from "./components/Reviews/Reviews";
+import { Footer } from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Selling />
       <DownloadApp />
       <Reviews />
+      <Footer />
     </>
   );
 }

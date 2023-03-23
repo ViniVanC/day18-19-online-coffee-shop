@@ -73,6 +73,23 @@ section {
   }
 }
 
+input[type="email"],
+input[type="text"] {
+  background: #ffffff;
+  box-shadow: 0px 12px 30px rgba(205, 209, 214, 0.48);
+  border-radius: 65px;
+  padding: 20px 30px;
+  width: 100%;
+
+  font-size: 22px;
+  line-height: 136%;
+  color: #1b1b1d;
+
+  &::placeholder {
+    color: #64646a;
+  }
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
