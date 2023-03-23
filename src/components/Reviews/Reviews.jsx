@@ -24,6 +24,19 @@ export const Reviews = () => {
         />
       </div>
 
+      <div
+        className="absolute bottom-0 -right-[600px] z-[-1] rotate-0 max-sm:hidden"
+        style={{
+          filter: " drop-shadow(-15px 50px 70px rgba(27, 27, 29, 0.1))",
+        }}
+      >
+        <img
+          className="w-full object-contain"
+          src="/images/decorate/decorate-coffee-cups.png"
+          alt="decorate coffee cups"
+        />
+      </div>
+
       <Container>
         <div className="absolute top-0 left-0 z-[1] h-full w-full max-w-[545px] rounded-3xl  p-[30px] backdrop-blur-[20px]">
           <h2 className="section-title mb-[40px]">What Our Customers Say</h2>
@@ -31,7 +44,7 @@ export const Reviews = () => {
             <span className="absolute top-1/2 left-0 -translate-y-1/2 text-[40px] font-semibold leading-[100%] caret-black">
               4.9
             </span>
-            <ul className="mb-[8px] flex items-center">
+            <ul className="mb-[8px] flex items-center gap-[3px]">
               <li>
                 <img src="/images/icons/star.svg" alt="star" />
               </li>

@@ -11,10 +11,10 @@ export const ReviewsCard = ({ imgSrc, title, description, stars, delay }) => {
       <img src={imgSrc} alt={`${title}-img`} />
       <div className="p-[40px]">
         <div className="mb-[32px] flex items-center gap-[16px]">
-          <h3 className="text-[30px] font-semibold leading-[125%] text-black">
+          <h3 className="text-[24px] font-semibold leading-[125%] text-black">
             {title}
           </h3>
-          <ul className="flex items-center ">
+          <ul className="flex items-center gap-[3px]">
             {new Array(stars).fill().map((item, i) => (
               <li key={i}>
                 <img src="/images/icons/star.svg" alt="star" />
